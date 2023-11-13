@@ -37,6 +37,11 @@
         grid-template-columns: 1fr;
         grid-gap: 2rem;
 
+        &__skill {
+            padding-bottom: 1rem;
+            border-bottom: 3px solid $secondary-color;
+        }
+
         &__job {
             background: lighten($primary-color, 10%);
             padding: 0.5rem;
